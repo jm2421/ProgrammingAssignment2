@@ -49,16 +49,16 @@ cacheSolve <- function(x, ...) {
 }
 
 ## simple test to confirm correct operation
-a <- rbind(c(2., 3.),c(2., 2.))
-x <- makeCacheMatrix(a)
-print(x$get())
-#First time - without cache
-xi <- cacheSolve(x)
-print(xi)
-#Second time - with cache
-xi <- cacheSolve(x)
-print(xi)
-
-yi <- x$getinverse()
-print(yi)
+# a <- rbind(c(2., 3.),c(2., 2.))
+# x <- makeCacheMatrix(a)
+# print(x$get())
+# #First time - without cache
+# xi <- cacheSolve(x)
+# print(xi)
+# #Second time - with cache
+# xi <- cacheSolve(x)
+# print(xi)
+# 
+# yi <- x$getinverse()
+# print(yi)
 
